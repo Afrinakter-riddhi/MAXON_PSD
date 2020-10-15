@@ -1,0 +1,155 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.navbar {
+  padding: 15px 0;
+}
+.navbar-toggler-icon {
+    width: 0.5em !important;
+    height: 0.5em !important;
+}
+.menu ul li a {
+    padding: 8px 0!important;
+    text-align: right;
+
+}
+/*header end*/ 
+
+/*banner start*/
+.banner {
+   padding: 25px 0 !important;
+}
+.banner_content h1 {
+    font-size: 30px;
+    margin: 14px 0;
+}
+/*banner end*/
+/*feature start*/
+.feature_content{
+	    text-align: center;
+}
+.feature_content h1{
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+/*feature end*/
+
+/* works start */
+/* works end */
+.b_orng2 {
+    width: 144px;
+    height: 46px;
+    margin: 25px 0;
+    margin-left: 0px;
+}
+
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*header start*/
+.menu ul li a {
+    padding: 8px 0!important;
+    text-align: right;
+
+}
+/*header end*/
+/*banner start*/
+.banner {
+    background-color: #f7f7f7;
+    padding: 35px 0;
+
+}
+.banner_content h1 {
+    font-size: 30px;
+    margin: 14px 0;
+}
+/*banner end*/
+
+/* works start */
+/* works end */
+/* contact */
+.b_orng2 {
+   
+    margin: 25px 0;
+    margin-left: 157px;
+}
+
+
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+    padding: 8px 0!important;
+    text-align: right;
+
+}
+/*header end*/
+/*banner*/
+.banner{
+	    padding: 90px 0;
+}
+.banner_content h1 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.banner_content p {
+  
+    line-height: 25px;
+}
+.b_orng {
+    
+    width: 122px;
+    height: 50px;
+    margin: 26px 0;
+}
+/*team*/
+.list-group-item {
+     padding: 1px 12px !important;
+    
+}
+/*contact */
+.b_orng2 {
+ border-radius: 21px;
+    width: 140px;
+    height: 43px;
+    margin: 32px 0;
+    margin-left: 76px;
+
+}
+.query h3 {
+   font-size: 20px;
+   
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+.banner_content h1 {
+    font-size: 37px;
+    
+}
+.s_column h3{
+	    line-height: 30px;
+}
+/*team*/
+.list-group-item {
+     padding: 0 8px !important;
+    
+}
+/* contact*/
+  .b_orng2 {
+    margin: 40px 0;
+    margin-left: 175px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
